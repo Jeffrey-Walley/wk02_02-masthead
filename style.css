@@ -1,0 +1,107 @@
+nav {
+    height: 3em;
+    border: 1px solid;
+    background-color: black;
+}
+
+span {
+    color: white;
+    padding: 1em;
+}
+
+#logo {
+    background-color: red;
+}
+
+Img {
+    height: 25px;
+    width: 25px;
+}
+
+.signIn {
+    float: right;
+}
+
+.cart {
+    float: right;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+body {
+    font-family: "Audiowide", sans-serif;
+}
+
+ul,
+li {
+    font-family: "Trilong", serif;
+    color: dodgerblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px blue;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
